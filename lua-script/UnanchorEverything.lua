@@ -10,4 +10,7 @@
 v.Anchored = false	
 			end
 		end
+	if v:IsA("Weld") then
+		v:Destroy()
+		end
 	end
